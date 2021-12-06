@@ -35,13 +35,34 @@ header img {
 }
 
 #active {
-   border-bottom: 2px solid #F6EB61;
+   border-bottom: 1px solid #F6EB61;
 }
+
+/* ARTICLE SECTION */
+
+section > h1 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 #article-section {
     width: 50%;
-    border: 3px solid blue;
     margin: auto;
+}
+
+article {
+    border: 2px solid green;
 }
 article img {
     width: 100%;
 }
+
+article p {
+    margin-bottom: 100px;
+}
+
+article a {
+    text-decoration: none;
+}
+
