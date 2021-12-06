@@ -7,3 +7,31 @@
 body{
 
 }
+header {
+    height: 100px;
+    background: #C8102E;
+}
+img {
+    float: left;
+    height: 80%;
+    margin-left: 40px;
+    margin-top: 5px;
+
+}
+#menu {
+    letter-spacing: 4px;
+}
+#menu, img {
+    line-height: 75px;
+}
+#menu li{
+    float: right;
+    padding: 10px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
