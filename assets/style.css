@@ -34,6 +34,10 @@ header img {
     text-transform: uppercase;
 }
 
+#menu a:hover {
+    color: #00B2A9;
+}
+
 #active {
    border-bottom: 1px solid #F6EB61;
 }
@@ -43,26 +47,36 @@ header img {
 section > h1 {
     font-size: 280%;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0 50px;
+}
+article h2 {
+    text-decoration: underline;
+    padding-bottom: 20px;
 }
 
 #article-section {
     width: 50%;
     margin: auto;
 }
-
+#article-section h1, h2, p {
+    color:black
+}
+article h2 p {
+    border: 2px solid black;
+}
 article {
-    border: 2px solid green;
+    margin-bottom: 100px;
+}
+article:hover {
+    border: 1px solid #aaaaaa;
 }
 article img {
     width: 100%;
 }
 
-article p {
-    margin-bottom: 100px;
-}
 
 article a {
     text-decoration: none;
 }
+
 
