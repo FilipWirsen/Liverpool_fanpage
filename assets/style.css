@@ -3,6 +3,9 @@
     padding: 0;
 
 }
+body {
+    width: 100%;
+}
 
 header {
     height: 100px;
@@ -74,9 +77,32 @@ article img {
     width: 100%;
 }
 
-
 article a {
     text-decoration: none;
 }
 
 
+        /* Footer */
+
+footer {
+    background-color: #3a3a3a;
+    text-align: center;
+}
+#social-links {
+    padding-bottom: 20px;
+}
+#social-links li {
+    display: inline;
+}
+
+#social-links i {
+    font-size: 200%;
+     margin: 2%; 
+    color: #aaaaaa;
+}
+
+footer a{
+    font-size: 100%;
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
