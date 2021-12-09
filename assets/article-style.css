@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: rgb(240, 240, 240);
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    background: #C8102E;
+}
+header img {
+    float: left;
+    height: 80%;
+    margin-left: 40px;
+    margin-top: 5px;
+
+}
+#menu {
+    letter-spacing: 4px;
+}
+#menu, img {
+    line-height: 75px;
+}
+#menu li{
+    float: right;
+    padding: 10px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu a:hover {
+    color: #00B2A9;
+}
+
+#active {
+   border-bottom: 1px solid #F6EB61;
+}
+
+    /* Article */
+        article img {
+            width: 100%;
+        }
+    
+    /* Footer */
+
+       footer {
+        background-color: #3a3a3a;
+        text-align: center;
+    }
+    #social-links {
+        padding-bottom: 20px;
+    }
+    #social-links li {
+        display: inline;
+    }
+    
+    #social-links i {
+        font-size: 200%;
+         margin: 2%; 
+        color: #aaaaaa;
+    }
+    
+    #social-links i:hover {
+        color: #ffffff;
+    }
+    
+    .newsletter-link:hover {
+        color: #ffffff;
+    }
+    
+    footer a{
+        font-size: 100%;
+        color: #aaaaaa;
+        margin-bottom: 40px;
+    }
