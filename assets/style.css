@@ -10,6 +10,10 @@ body {
     background: rgb(240, 240, 240);
     width: 100%;
 }
+h2, h3, p {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+}
 
 header {
     height: 100px;

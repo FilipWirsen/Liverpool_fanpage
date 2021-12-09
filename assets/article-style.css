@@ -11,9 +11,17 @@ body {
     width: 100%;
 }
 
+h2, h3, p {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+}
+
 header {
     height: 100px;
     background: #C8102E;
+    position: sticky; 
+    top: 0;
+    z-index: 2;
 }
 header img {
     float: left;
@@ -52,20 +60,40 @@ header img {
     /* Article */
     article {
         position: relative;
-        text-align: center;
+        width: 90%;
+        margin: auto;
 
     }
-    article h2 {
-        color: #ffffff;
-        font-weight: bold;
-        font-size: 200%;
-        position: absolute;
-        top: 75%;
-        left: 10%;
-    }
-        article img {
-            width: auto;
+        article > img {
+            width: 100%;
             height: 1000px;
+        }
+       
+        article h2 {
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            font-size: 64px;
+            position: absolute;
+            top: 700px;
+            left: 1%;
+        }
+        article h3 {
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            font-size: 32px;
+            color: rgb(12, 12, 12);
+        }
+
+        article p {
+            color: rgb(12, 12, 12);
+            font-size: 150%;
+            width: 50%;
+            margin: auto;
+        
+        }
+
+        .images {
+            width: 100%;
         }
     
     /* Footer */
