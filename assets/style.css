@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
 
 }
 body {
+    background: rgb(240, 240, 240);
     width: 100%;
 }
 
@@ -69,9 +73,10 @@ article h2 p {
 }
 article {
     margin-bottom: 100px;
+    background: #ffffff;
 }
 article:hover {
-    border: 1px solid #aaaaaa;
+
 }
 article img {
     width: 100%;
@@ -99,6 +104,14 @@ footer {
     font-size: 200%;
      margin: 2%; 
     color: #aaaaaa;
+}
+
+#social-links i:hover {
+    color: #ffffff;
+}
+
+.newsletter-link:hover {
+    color: #ffffff;
 }
 
 footer a{
