@@ -50,8 +50,22 @@ header img {
 }
 
     /* Article */
+    article {
+        position: relative;
+        text-align: center;
+
+    }
+    article h2 {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 200%;
+        position: absolute;
+        top: 75%;
+        left: 10%;
+    }
         article img {
-            width: 100%;
+            width: auto;
+            height: 1000px;
         }
     
     /* Footer */
