@@ -62,6 +62,7 @@ header img {
         position: relative;
         width: 90%;
         margin: auto;
+        text-align: center;
 
     }
         article > img {
@@ -69,13 +70,12 @@ header img {
             height: 1000px;
         }
        
-        article h2 {
+        .article-image-text {
             color: rgb(255, 255, 255);
             font-weight: 400;
             font-size: 64px;
             position: absolute;
             top: 700px;
-            left: 1%;
         }
         article h3 {
             padding-top: 2.5%;
@@ -94,6 +94,13 @@ header img {
 
         .images {
             width: 100%;
+        }
+        .article-link{
+            color: #C8102E;
+            font-size: large;
+            text-decoration: none;
+
+            
         }
     
     /* Footer */
