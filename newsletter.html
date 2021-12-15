@@ -35,9 +35,19 @@
         </h1>
         <label for="email">Email Address</label>
         <input  class="text-input" type="email" id="email" name="email_address" required>
-        <label for="age">Age</label>
-        <input class="text-input" type="number" name="age" id="age" required>
-        <input type="submit" value="Sign up now!">
+
+        <div class="radio-buttons">
+        <label for="8-13">8-13</label>
+        <input type="radio"  name="age" value="8-13" required>
+        <label for="14-17">14-17</label>
+        <input type="radio" name="age" value="14-17">
+        <label for="18-24">18-24</label>
+        <input type="radio" name="age" value="18-24">
+        <label for="25+">25+</label>
+        <input type="radio" name="age" value="25+">
+    </div>
+        
+        <input type="submit" id="submit-button" value="Sign up!">
     </form>
     </section>
     <footer>
