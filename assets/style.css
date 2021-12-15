@@ -10,7 +10,7 @@ body {
     background: rgb(240, 240, 240);
     width: 100%;
 }
-h2, h3, p {
+h1, h2, h3, p {
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
 }
@@ -69,7 +69,7 @@ article h2 {
     width: 50%;
     margin: auto;
 }
-#article-section h1, h2, p {
+#article-section h1, #article-section h2, #article-section p {
     color:black
 }
 article h2 p {
@@ -77,10 +77,23 @@ article h2 p {
 }
 article {
     margin-bottom: 100px;
-    background: #ffffff;
+    background: rgb(255,250,250);
+
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+ 
+}
+
+@keyframes article-hover {
+    0% {
+        background: rgb(255,250,250);
+    }
+    100% {
+        background: #c8cccf;
+    }
 }
 article:hover {
-
+        animation-name: article-hover;
 }
 article img {
     width: 100%;
@@ -122,4 +135,31 @@ footer a{
     font-size: 100%;
     color: #aaaaaa;
     margin-bottom: 40px;
+}
+
+/* NEWSLETTER PAGE */
+
+#form-section {
+    background-image: url('/assets/images/P2021-01-28-Tottenham_Liverpool-88.jpg');
+    background-size: cover;
+    height: 1000px;
+}
+
+.signup-form {
+    text-align: center;
+    position: absolute;
+    color: #ffffff;
+    background-color: rgba(200, 16, 46, 0.6);
+    left: 33%;
+    margin-top: 2.5%;
+    padding: 20px;
+}
+
+.signup-form h1 {
+    padding: 15px;
+}
+
+.text-input {
+    width: 100%;
+    margin: 10px 0 0 10px;
 }
