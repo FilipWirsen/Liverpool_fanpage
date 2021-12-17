@@ -168,7 +168,10 @@ footer a{
     height: 30px;
     
 }
-
+.input-label {
+    display: block;
+    padding: 15px;
+}
 .radio-buttons label {
     width: 12.5%;
     display: inline-block;
@@ -176,7 +179,7 @@ footer a{
 
   #submit-button {
     background-color: #00B2A9;
-    margin-top: 20px;
+    padding: 10px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
