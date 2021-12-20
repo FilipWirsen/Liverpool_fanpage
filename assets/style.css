@@ -206,6 +206,7 @@ footer a{
       margin: auto;
       border-collapse: collapse;
       width: 80%;
+      margin-bottom: 30px;
   }
 
   .table-row {
@@ -217,6 +218,9 @@ footer a{
      width: 10%;
       padding: 15px 0 15px 0;
       line-height: 10px;
+  }
+  td, th {
+      font-family: Oswald, sans-serif;
   }
 
   .table-row:hover {
