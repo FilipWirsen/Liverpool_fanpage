@@ -130,6 +130,9 @@ footer {
     color: #ffffff;
 }
 
+.newsletter-link {
+    font-family: Oswald, sans-serif;
+}
 .newsletter-link:hover {
     color: #ffffff;
 }
@@ -217,7 +220,7 @@ footer a{
   td {
      width: 10%;
       padding: 15px 0 15px 0;
-      line-height: 10px;
+      line-height: 15px;
   }
   td, th {
       font-family: Oswald, sans-serif;
@@ -229,4 +232,29 @@ footer a{
   .fixture-date {
       float: left;
       padding: 1rem;
+  }
+
+  /* Max width 1200px */
+
+  @media screen and (max-width: 1200px){
+
+    #social-links i {
+        font-size: 300%;
+    }
+    .newsletter-link {
+        font-size: 150%;
+        font-family: Oswald, sans-serif;
+    }
+      
+    /* News/home page */
+
+    #article-section {
+        width: 100%;
+    }
+
+    /* Newsletter page */
+
+    .radio-buttons {
+        font-size: larger;
+    }
   }
