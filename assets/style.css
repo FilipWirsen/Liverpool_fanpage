@@ -196,6 +196,11 @@ footer a{
 
   /* Schedule page */
   
+  caption {
+      font-size: 280%;
+      color: black;
+      font-family: Oswald, sans-serif;
+  }
 
   #table-fixtures {
       margin: auto;
@@ -204,8 +209,18 @@ footer a{
   }
 
   .table-row {
-      border-top: 2px solid black;
-      border-bottom: 2px solid black;
+      border-top: 1px solid #242424;
+      border-bottom: 1px solid #242424;
+      text-align: center;
+  }
+  td {
+     width: 10%;
+      padding: 15px 0 15px 0;
+      line-height: 10px;
+  }
+
+  .table-row:hover {
+      background-color: #00B2A9;
   }
   .fixture-date {
       float: left;
