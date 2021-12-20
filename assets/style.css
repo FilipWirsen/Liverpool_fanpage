@@ -193,3 +193,21 @@ footer a{
     border: none;
     left: 50%;
   }
+
+  /* Schedule page */
+  
+
+  #table-fixtures {
+      margin: auto;
+      border-collapse: collapse;
+      width: 80%;
+  }
+
+  .table-row {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+  }
+  .fixture-date {
+      float: left;
+      padding: 1rem;
+  }
