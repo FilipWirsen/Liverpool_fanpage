@@ -74,9 +74,7 @@ article h2 {
 #article-section h1, #article-section h2, #article-section p {
     color:black
 }
-article h2 p {
-    border: 2px solid black;
-}
+
 article {
     margin-bottom: 100px;
     background: rgb(255,250,250);
@@ -279,4 +277,11 @@ footer a{
         width: 90%;
     }
 
+
+
+    /* FOOTER */
+
+    #social-links i {
+        padding: 0px;
+    }
  }
