@@ -64,7 +64,6 @@ section > h1 {
     margin: 50px 0 50px;
 }
 article h2 {
-    text-decoration: underline;
     padding-bottom: 20px;
 }
 
@@ -81,23 +80,13 @@ article h2 p {
 article {
     margin-bottom: 100px;
     background: rgb(255,250,250);
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
  
 }
 
-@keyframes article-hover {
-    0% {
-        background: rgb(255,250,250);
-    }
-    100% {
-        background: #c8cccf;
-    }
-}
-article:hover {
-        animation-name: article-hover;
-}
+
 article img {
     width: 100%;
 }
