@@ -240,7 +240,7 @@ footer a{
     /* News/home page */
 
     #article-section {
-        width: 100%;
+        width: 80%;
     }
 
     /* Newsletter page */
@@ -261,7 +261,7 @@ footer a{
     header img {
         float: left;
         height: 80%;
-        margin-left: 2%;
+        margin-left: 5%;
         margin-top: 5px;
     
     }
@@ -269,8 +269,13 @@ footer a{
         letter-spacing: 0px;
         font-size: 15px;
     }
-    /* .news-button {
-        display: none;
-    } */
+
+    #menu li {
+        margin: 0px;
+    }
+
+    #article-section {
+        width: 90%;
+    }
 
  }
