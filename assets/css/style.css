@@ -81,7 +81,7 @@ article {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
- 
+
 }
 
 
@@ -109,7 +109,7 @@ footer {
 
 #social-links i {
     font-size: 2.5rem;
-     margin: 2%; 
+     margin: 2%;
     color: #aaaaaa;
 }
 
@@ -160,7 +160,7 @@ footer a{
     margin: 10px 0 10px 0;
     background-color: #ffffff;
     height: 30px;
-    
+
 }
 .input-label {
     display: block;
@@ -186,7 +186,7 @@ footer a{
   }
 
   /* Schedule page */
-  
+
   caption {
       font-size: 3rem;
       color: black;
@@ -209,7 +209,7 @@ footer a{
   td {
      width: 10%;
       padding: 15px 0 15px 0;
-      line-height: 15px;
+      line-height: 1,6rem;
   }
   td, th {
       font-family: Oswald, sans-serif;
@@ -233,9 +233,9 @@ footer a{
     }
     .newsletter-link {
         font-size: 1rem;
-        
+
     }
-      
+
     /* News/home page */
 
     #article-section {
@@ -250,19 +250,19 @@ footer a{
   }
 
 
- /* MAX WIDTH 600px */ 
+ /* MAX WIDTH 600px */
 
  @media screen and (max-width:650px) {
-     
+
     /* HEADER */
 
-  
+
     header img {
         float: left;
         height: 80%;
         margin-left: 5%;
         margin-top: 5px;
-    
+
     }
     #menu {
         letter-spacing: 0px;
@@ -277,8 +277,11 @@ footer a{
         width: 90%;
     }
 
+    /* SCHEDULE */
 
-
+    #table-fixtures {
+        width: 100%;
+    }
     /* FOOTER */
 
     #social-links i {
