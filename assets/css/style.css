@@ -138,7 +138,7 @@ footer a{
     background-image: url('/assets/images/P2021-01-28-Tottenham_Liverpool-88.jpg');
     background-size: cover;
     object-fit: cover;
-    min-height: calc(100vh - 240px);
+    min-height: calc(100vh - 210px);
 }
 
 .signup-form {
@@ -183,6 +183,11 @@ footer a{
     display: inline-block;
     border: none;
     left: 50%;
+
+  }
+
+  #newsletter-footer {
+      height: 110px;
   }
 
   /* Schedule page */
