@@ -99,7 +99,7 @@ article a {
 footer {
     background-color: #3a3a3a;
     text-align: center;
-    height: 110px;
+    height: 140px;
 }
 #social-links {
     /* padding-bottom: 20px; */
@@ -126,7 +126,7 @@ footer {
 }
 
 footer a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #aaaaaa;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -138,7 +138,7 @@ footer a{
     background-image: url('/assets/images/P2021-01-28-Tottenham_Liverpool-88.jpg');
     background-size: cover;
     object-fit: cover;
-    min-height: calc(100vh - 210px);
+    min-height: calc(100vh - 240px);
 }
 
 .signup-form {
