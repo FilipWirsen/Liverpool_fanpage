@@ -99,16 +99,17 @@ article p {
 footer {
     background-color: #3a3a3a;
     text-align: center;
+    height: 140px;
 }
 #social-links {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 #social-links li {
     display: inline;
 }
 
 #social-links i {
-    font-size: 250%;
+    font-size: 2.5rem;
     margin: 2%;
     color: #aaaaaa;
 }
@@ -117,14 +118,18 @@ footer {
     color: #ffffff;
 }
 
+.newsletter-link {
+    font-family: Oswald, sans-serif;
+}
 .newsletter-link:hover {
     color: #ffffff;
 }
 
 footer a {
-    font-size: 100%;
+    font-size: 1rem;
     color: #aaaaaa;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 650px) {
