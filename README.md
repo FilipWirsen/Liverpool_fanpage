@@ -36,10 +36,11 @@
 
 ### 
 
-# Validator
+# Error and Validation
 ### All pages were validated using [w3.org](https://jigsaw.w3.org/css-validator/validator) for CSS and [w3.org](https://validator.w3.org/nu/) for HTML
 
 ### When validating the schedule page i got the following warning 
 ![Error from validiating schedule page](assets/images/error-schema.png)
 ### I fixed this by adding the colspan attribute to the table header
 
+### When uploading the website to github the background picture for the newsletter page didnt show. I fixed this by 
