@@ -168,3 +168,11 @@ header img {
         }
 
         }
+
+
+        @media screen and (max-width:650px) {
+
+            #menu li {
+                padding: 5px;
+            }
+        }

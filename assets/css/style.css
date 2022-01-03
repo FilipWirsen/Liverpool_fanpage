@@ -173,7 +173,7 @@ footer a{
     font-family: Oswald, sans-serif;
 }
 .radio-buttons label {
-    width: 12.5%;
+    width: 10%;
     display: inline-block;
   }
 
@@ -281,6 +281,7 @@ footer a{
 
     #menu li {
         margin: 0px;
+        padding: 5px;
     }
 
     #article-section {
