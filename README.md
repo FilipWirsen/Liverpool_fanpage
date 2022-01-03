@@ -43,4 +43,4 @@
 ![Error from validiating schedule page](assets/images/error-schema.png)
 ### I fixed this by adding the colspan attribute to the table header
 
-### When uploading the website to github the background picture for the newsletter page didnt show. I fixed this by 
+

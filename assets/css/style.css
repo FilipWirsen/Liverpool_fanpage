@@ -140,7 +140,7 @@ footer a {
 /* NEWSLETTER PAGE */
 
 #form-section {
-    background-image: url("/assets/images/P2021-01-28-Tottenham_Liverpool-88.jpg");
+    background-image: url("../images/P2021-01-28-Tottenham_Liverpool-88.jpg");
     background-size: cover;
     object-fit: cover;
     min-height: calc(100vh - 210px);
