@@ -68,6 +68,8 @@ header img {
         article > img {
             width: 100%;
             height: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
     
         article h3 {
@@ -80,7 +82,7 @@ header img {
         article p {
             color: rgb(12, 12, 12);
             font-size: 150%;
-            width: 50%;
+            width: 80%;
             margin: auto;
         
         }
@@ -164,4 +166,5 @@ header img {
         article p {
             width: 90%;
         }
+
         }
