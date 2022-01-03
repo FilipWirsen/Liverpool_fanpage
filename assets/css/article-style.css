@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
     font-family: Oswald, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 body {
     background: rgb(240, 240, 240);
     width: 100%;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
 }
@@ -22,8 +22,8 @@ p {
 
 header {
     height: 100px;
-    background: #C8102E;
-    position: sticky; 
+    background: #c8102e;
+    position: sticky;
     top: 0;
     z-index: 2;
 }
@@ -32,15 +32,15 @@ header img {
     height: 80%;
     margin-left: 1%;
     margin-top: 5px;
-
 }
 #menu {
     letter-spacing: 4px;
 }
-#menu, img {
+#menu,
+img {
     line-height: 75px;
 }
-#menu li{
+#menu li {
     float: right;
     padding: 10px;
     list-style: none;
@@ -54,125 +54,114 @@ header img {
 }
 
 #active {
-   border-bottom: 1px solid #F6EB61;
+    border-bottom: 1px solid #f6eb61;
 }
 
-    /* Article */
-    article {
-        position: relative;
-        width: 90%;
-        margin: auto;
-        text-align: center;
+/* Article */
+article {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+article > img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+article h3 {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 2.2rem;
+    color: rgb(12, 12, 12);
+}
+
+article p {
+    color: rgb(12, 12, 12);
+    font-size: 150%;
+    width: 80%;
+    margin: auto;
+}
+
+.images {
+    width: 100%;
+}
+.article-link {
+    color: #c8102e;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3a3a3a;
+    text-align: center;
+}
+#social-links {
+    padding-bottom: 20px;
+}
+#social-links li {
+    display: inline;
+}
+
+#social-links i {
+    font-size: 250%;
+    margin: 2%;
+    color: #aaaaaa;
+}
+
+#social-links i:hover {
+    color: #ffffff;
+}
+
+.newsletter-link:hover {
+    color: #ffffff;
+}
+
+footer a {
+    font-size: 100%;
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 650px) {
+    /* HEADER */
+
+    header img {
+        float: left;
+        height: 80%;
+        margin-left: 5%;
+        margin-top: 5px;
     }
-        article > img {
-            width: 100%;
-            height: auto;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-    
-        article h3 {
-            padding-top: 2.5%;
-            padding-bottom: 2.5%;
-            font-size: 2.2rem;
-            color: rgb(12, 12, 12);
-        }
-
-        article p {
-            color: rgb(12, 12, 12);
-            font-size: 150%;
-            width: 80%;
-            margin: auto;
-        
-        }
-
-        .images {
-            width: 100%;
-        }
-        .article-link{
-            color: #C8102E;
-            font-size: large;
-            font-weight: bold;
-
-            
-        }
-    
-    /* Footer */
-
-       footer {
-        background-color: #3a3a3a;
-        text-align: center;
+    #menu {
+        letter-spacing: 0px;
+        font-size: 1rem;
     }
-    #social-links {
+
+    #menu li {
+        margin: 0px;
+    }
+
+    article > img {
+        height: auto;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
-    #social-links li {
-        display: inline;
-    }
-    
-    #social-links i {
-        font-size: 250%;
-         margin: 2%; 
-        color: #aaaaaa;
-    }
-    
-    #social-links i:hover {
-        color: #ffffff;
-    }
-    
-    .newsletter-link:hover {
-        color: #ffffff;
-    }
-    
-    footer a{
-        font-size: 100%;
-        color: #aaaaaa;
-        margin-bottom: 40px;
+
+    article h3 {
+        font-size: 1.2rem;
     }
 
+    article p {
+        width: 90%;
+    }
+}
 
-    @media screen and (max-width:650px) {
-
-        /* HEADER */
-    
-    
-        header img {
-            float: left;
-            height: 80%;
-            margin-left: 5%;
-            margin-top: 5px;
-    
-        }
-        #menu {
-            letter-spacing: 0px;
-            font-size: 1rem;
-        }
-    
-        #menu li {
-            margin: 0px;
-        }
-
-        article > img {
-            height: auto;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-
-        article h3 {
-            font-size: 1.2rem;
-        }
-
-        article p {
-            width: 90%;
-        }
-
-        }
-
-
-        @media screen and (max-width:650px) {
-
-            #menu li {
-                padding: 5px;
-            }
-        }
+@media screen and (max-width: 650px) {
+    #menu li {
+        padding: 5px;
+    }
+}

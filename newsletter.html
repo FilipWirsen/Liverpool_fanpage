@@ -1,71 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newsletter | Liverpool</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header>
-        <a href="index.html">
-        <img src="assets/images/liverpool-logo.png" alt="liverpool-logo">
-        </a>
-        <nav>
-            <ul id="menu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Newsletter | Liverpool</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="assets/images/liverpool-logo.png" alt="liverpool-logo" />
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="newsletter.html" id="active">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="schedule.html">Schedule</a>
+                    </li>
+                    <li>
+                        <a href="index.html">News</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="form-section">
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
+                <h1>Never miss out on any news, sign up to our newsletter!</h1>
+                <label class="input-label" for="email">Email Address:</label>
+                <input class="text-input" type="email" id="email" name="email_address" required />
+
+                <label class="input-label" for="age">Age:</label>
+                <div class="radio-buttons">
+                    <label class="age-label" for="8-13">8-13</label>
+                    <input type="radio" name="age" value="8-13" required />
+                    <label class="age-label" for="14-17">14-17</label>
+                    <input type="radio" name="age" value="14-17" />
+                    <label class="age-label" for="18-24">18-24</label>
+                    <input type="radio" name="age" value="18-24" />
+                    <label class="age-label" for="25+">25+</label>
+                    <input type="radio" name="age" value="25+" />
+                </div>
+
+                <input type="submit" id="submit-button" value="Sign up!" />
+            </form>
+        </section>
+        <footer id="newsletter-footer">
+            <ul id="social-links">
                 <li>
-                    <a href="newsletter.html" id="active">Newsletter</a>
+                    <a href="https://sv-se.facebook.com/LiverpoolFC/" target="_blank" rel="noopener" aria-label="Visit Liverpools facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="schedule.html">Schedule</a>
+                    <a href="https://www.instagram.com/liverpoolfc/" target="_blank" rel="noopener" aria-label="Visit Liverpools instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="index.html" >News</a>
+                    <a href="https://twitter.com/lfc" target="_blank" rel="noopener" aria-label="Visit Liverpools Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
                 </li>
+                <br />
             </ul>
-        </nav>
-    </header>
-    <section id="form-section">
-    <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
-        <h1>Never miss out on any news, sign up to our newsletter!
-        </h1>
-        <label class="input-label" for="email">Email Address:</label>
-        <input  class="text-input" type="email" id="email" name="email_address" required>
-        
-        <label class="input-label" for="age">Age:</label>
-        <div class="radio-buttons">
-        <label  class="age-label" for="8-13">8-13</label>
-        <input type="radio"  name="age" value="8-13" required>
-        <label class="age-label" for="14-17">14-17</label>
-        <input type="radio" name="age" value="14-17">
-        <label class="age-label" for="18-24">18-24</label>
-        <input type="radio" name="age" value="18-24">
-        <label class="age-label" for="25+">25+</label>
-        <input type="radio" name="age" value="25+">
-    </div>
-        
-        <input type="submit" id="submit-button" value="Sign up!">
-    </form>
-    </section>
-    <footer id="newsletter-footer">
-        <ul id="social-links">
-            <li>
-                <a href="https://sv-se.facebook.com/LiverpoolFC/" target="_blank" rel="noopener" aria-label="Visit Liverpools facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/liverpoolfc/" target="_blank" rel="noopener" aria-label="Visit Liverpools instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/lfc" target="_blank" rel="noopener" aria-label="Visit Liverpools Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-            </li>
-            <br>
-        </ul>
-         
-    </footer>
-</body>
-            <!-- Font Awsome -->
+        </footer>
+    </body>
+    <!-- Font Awsome -->
     <script src="https://kit.fontawesome.com/546d7fc263.js" crossorigin="anonymous"></script>
-
-
 </html>

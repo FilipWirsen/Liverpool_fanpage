@@ -1,13 +1,17 @@
-![Liverpool logo](https://seeklogo.com/images/L/liverpool-fc-logo-0EB18C45CF-seeklogo.com.png)
-
 # Liverpool Fan Page
 
-### This page is designed to make Liverpool fans lifes easier. The page is filled with the most recent news and the first teams premier league schedule. We also offer our users to sign up to our newspage to never miss out on any news regarding the first team.
+### This page is designed to make Liverpool fans lifes easier. The page is filled with the most recent news and the first teams premier league schedule. We also offer our users to sign up to our newspage to never miss out on any news.
+#
+
+![Website on diffrent viewports](assets/images/team-logos/readme-images/responsive_liverpool.png)
+
+[Link to website]()
 
 
 # UX
 ### For the design i wanted to keep things simple and used Liverpools official page as an inspiration for things as the color scheme and the article content.
-`python3 -m http.server`
+
+
 
 A blue button should appear to click: _Make Public_,
 
