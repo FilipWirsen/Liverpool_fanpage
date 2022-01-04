@@ -80,7 +80,7 @@ article h3 {
 
 article p {
     color: rgb(12, 12, 12);
-    font-size: 150%;
+    font-size: 1.2rem;
     width: 80%;
     margin: auto;
 }
@@ -92,6 +92,8 @@ article p {
     color: #c8102e;
     font-size: large;
     font-weight: bold;
+    display: block;
+    margin: 10px;
 }
 
 /* Footer */
@@ -120,6 +122,7 @@ footer {
 
 .newsletter-link {
     font-family: Oswald, sans-serif;
+    margin: 14px;
 }
 .newsletter-link:hover {
     color: #ffffff;
@@ -161,11 +164,8 @@ footer a {
     }
 
     article p {
-        width: 90%;
+        width: 100%;
     }
-}
-
-@media screen and (max-width: 650px) {
     #menu li {
         padding: 5px;
     }

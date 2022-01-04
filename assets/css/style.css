@@ -73,6 +73,7 @@ article h2 {
     padding-bottom: 20px;
 }
 
+
 #article-section {
     width: 50%;
     margin: auto;
@@ -81,7 +82,7 @@ article h2 {
 #article-section h2,
 #article-section p {
     color: black;
-}
+    }
 
 article {
     margin-bottom: 100px;
@@ -97,6 +98,10 @@ article img {
 
 article a {
     text-decoration: none;
+}
+
+div {
+    padding: 20px;
 }
 
 /* Footer */
@@ -144,12 +149,13 @@ footer a {
     background-size: cover;
     object-fit: cover;
     min-height: calc(100vh - 210px);
+    padding-top: 40px;
 }
 
 .signup-form {
     text-align: center;
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.2);
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     width: 65%;
     margin: auto;
