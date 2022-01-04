@@ -95,7 +95,7 @@ For the Schedule page i wanted to show when, where and who were playing so i use
 #
 
 ## Newsletter Page
-For the newsletter page i wanted to have the form as the only content to make the users focus stay on signing up witch is why i used the min-width property to always make the newsletter page cover the whole screen.
+For the newsletter page i wanted to have the form as the only content to make the user focus stay on signing up witch is why i used the min-width property to always make the newsletter page cover the whole screen so the user cant scroll.
 
 ![Newsletter Page](assets/images/readme-img/newsletter.png)
 ![Newsletter Page Ipad](assets/images/readme-img/newsletter-ipad.png)
@@ -132,8 +132,6 @@ All pages were validated using [w3.org](https://jigsaw.w3.org/css-validator/vali
 * [Box-shadow](https://getcssscan.com/css-box-shadow-examples) - To add shadow boxing to the articles on the home page.
 
 # Deployment
-
-## Initial Deployment
 I used Github Pages to deploy the live website i did it using the instructions below:
 1. Sign up or log in to Github.
 2. Find the repository for the project you want to deploy.
