@@ -81,6 +81,7 @@ For the home page i wanted it to be easy to see that you can click the boxes to 
 #
 ## Full Article
 All of the content from the full article section are taken from [Liverpools official site](https://www.liverpoolfc.com/) and i´ve added a link to the bottom of each article witch takes the user to the real article. To make it easy and fast to navigate i made the header sticky so even if your at the bottom of the page you can still navigate through the site.
+
 ![Article Page](assets/images/readme-img/article.png)
 ![Article Page Ipad](assets/images/readme-img/article-ipad.png)
 ![Article Page Iphone](assets/images/readme-img/article-iphone.png)
@@ -95,6 +96,7 @@ For the Schedule page i wanted to show when, where and who were playing so i use
 
 ## Newsletter Page
 For the newsletter page i wanted to have the form as the only content to make the users focus stay on signing up witch is why i used the min-width property to always make the newsletter page cover the whole screen.
+
 ![Newsletter Page](assets/images/readme-img/newsletter.png)
 ![Newsletter Page Ipad](assets/images/readme-img/newsletter-ipad.png)
 ![Newsletter Page Iphone](assets/images/readme-img/newsletter-iphone.png)
@@ -110,18 +112,30 @@ When validating the schedule page i got the following warning
  When uploading the project to github the background picture on the newsletter page didnt load, I fixed this by changing the url path.
 
 
-# Languages used 
+# Technologies Used
 
-* [HTML](https://sv.wikipedia.org/wiki/HTML)
-* [CSS](https://sv.wikipedia.org/wiki/CSS)
+* [HTML](https://sv.wikipedia.org/wiki/HTML) - To build the site
+* [CSS](https://sv.wikipedia.org/wiki/CSS) - To style the site
+* [FontAwsome](https://fontawesome.com/) - To use familiar logos for social links.
+* [Google Fonts](https://fonts.google.com/) - To import fonts used on the website.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) -  To  test features, solve issues with styling and responsiveness. 
 
 # Deployment
 
+## Initial Deployment
+I used Github Pages to deploy the live website i did it using the instructions below:
+1. Sign up or log in to Github.
+2. Find the repository for the project you want to deploy.
+3. Click on "Settings".
+4. Click on "Pages" in the left navigation bar.
+5. Under the "Source" section, press the drop down menu and select "Root".
+6. Click Save. Your site is now deployed at the URL shown.
 
 
 
 # Credits 
 
 1. Alot of my images and all of the content in the articles are taken from [Liverpools Official site](https://www.liverpoolfc.com/)
-2. To add shadowboxing to the home page i used [getcssscan](https://getcssscan.com/css-box-shadow-examples)
-3. To add the icons for the social links in the footer i used [Font Awsome](https://fontawesome.com/)
+2. All team logos are taken from [Premier Leagues site](https://www.premierleague.com/)
+3. To add shadowboxing to the home page i used [getcssscan](https://getcssscan.com/css-box-shadow-examples)
+4. To add the icons for the social links in the footer i used [Font Awsome](https://fontawesome.com/)
