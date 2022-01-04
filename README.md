@@ -51,6 +51,7 @@ Fontawsome was used for the social-links in the footer witch should be familiar 
 For the color scheme i wanted to go for Liverpools official colors so the colors that are used for this project are the following
 
  Header and navigation background: #C8102E 
+ 
 ![red-color](assets/images/red-color.png)
  
  Body background #F0F0F0
