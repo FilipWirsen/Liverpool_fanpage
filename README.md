@@ -101,26 +101,25 @@ For the newsletter page i wanted to have the form as the only content to make th
 ![Newsletter Page Ipad](assets/images/readme-img/newsletter-ipad.png)
 ![Newsletter Page Iphone](assets/images/readme-img/newsletter-iphone.png)
 
-# Features I Want To Add In The Future
-I would like to make the schedule page update without me having to add the data manually 
-
 
 # Error and Validation
 All pages were validated using [w3.org](https://jigsaw.w3.org/css-validator/validator) for CSS and [w3.org](https://validator.w3.org/nu/) for HTML
-
-When validating the schedule page i got the following warning 
-![Error from validiating schedule page](assets/images/error-schema.png)
- I fixed this by adding the colspan attribute to the table header
 
 
 ## Solved bugs
  When uploading the project to github the background picture on the newsletter page didnt load, I fixed this by changing the url path.
 
+ When validating the schedule page i got the following warning 
+![Error from validiating schedule page](assets/images/error-schema.png)
+ I fixed this by adding the colspan attribute to the table header
+
  ### Trouble with nav bar
  When working towards making the site responsive the nav link "News" jumped out of the header and down into the body section. I fixed this by removing the padding on the nav bar when the site gets loaded on a screen thats 650px or below.
 
 
-
+# Features I Want To Add In The Future
+* I would like to make the schedule page update without me having to add the data manually. I think this would work with JS and i´ve looked up a framework called meteor that i think would work.
+* Create a link on each fixture that redirects users so that they can buy tickets to the game.
 
 
 # Technologies Used
@@ -151,3 +150,11 @@ I used Github Pages to deploy the live website i did it using the instructions b
 2. All team logos are taken from [Premier Leagues site](https://www.premierleague.com/)
 3. To add shadowboxing to the home page i used [getcssscan](https://getcssscan.com/css-box-shadow-examples)
 4. To add the icons for the social links in the footer i used [Font Awsome](https://fontawesome.com/)
+
+# Acknowledgements
+
+Theese are the people and sites i would like to thank for helping me make this project the best i could.
+
+* My Code Institute mentor Akshat - For guiding and teaching me how to make the best project possible.
+* Liverpools official site - For using the articles and pictures of the team.
+* Premier leagues official site - For using the diffrent team logos and taking inspiration for the schedule page.
