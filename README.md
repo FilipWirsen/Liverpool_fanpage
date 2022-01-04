@@ -1,7 +1,7 @@
 # Liverpool Fan Page
  This page is designed to make Liverpool fans lifes easier, the page is filled with the most recent news and the first teams premier league schedule. We also offer our users to sign up to our newsletter to never miss out on any news. Alot of fotboll fans that i know have to visit diffrent sites to view their favorite teams fixtures and news. With this page you get all the information you need about Liverpool. When your visiting the site for the first time you will be greeted by familiar colors and instantly see the latest news and have to option to see the fixtures. There is no longer a need to visit diffrent pages to get all of the relevant information and that is why the users will be comming back to the site.
 #
-![Website on diffrent viewports](assets/images/team-logos/readme-images/responsive_liverpool.png)
+![Website on diffrent viewports](assets/images/readme-img/responsive_liverpool.png)
 #### [Link to Website](https://filipwirsen.github.io/Liverpool_fanpage/index.html)
 
 # UX 
