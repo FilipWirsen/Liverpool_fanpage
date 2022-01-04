@@ -50,12 +50,13 @@ Fontawsome was used for the social-links in the footer witch should be familiar 
 
 #
 ## Home Page
-### For the home page i wanted it to be easy to see that you can click the boxes to read the full article so i used shadowboxing and a diffrent background color.
+### For the home page i wanted it to be easy to see that you can click the boxes to read the full article so i used box-shadowing and a diffrent background color.
 ![Home page](assets/images/home-page.png)
 #
 ## Full Article
 
-### All of the content from the full article section are taken from [Liverpools official site](https://www.liverpoolfc.com/) and i´ve added a link to the bottom of each article witch takes the user to the real article
+### All of the content from the full article section are taken from [Liverpools official site](https://www.liverpoolfc.com/) and i´ve added a link to the bottom of each article witch takes the user to the real article. To make it easy and fast to navigate i made the header sticky so even if your at the bottom of the page you can still navigate through the site.
+![Article page](assets/images/article-page.png)
 #
 ## Schedule Page
 
@@ -77,14 +78,13 @@ Fontawsome was used for the social-links in the footer witch should be familiar 
 ![Error from validiating schedule page](assets/images/error-schema.png)
  I fixed this by adding the colspan attribute to the table header
 
- When uploading the project to github i the background picture on the newsletter page didnt load, I fixed this by changing the url path.
+ When uploading the project to github the background picture on the newsletter page didnt load, I fixed this by changing the url path.
 
 
 # Languages used 
 
-[HTML](https://sv.wikipedia.org/wiki/HTML)
-
-[CSS](https://sv.wikipedia.org/wiki/CSS)
+* [HTML](https://sv.wikipedia.org/wiki/HTML)
+* [CSS](https://sv.wikipedia.org/wiki/CSS)
 
 # Deployment
 
@@ -93,5 +93,6 @@ Fontawsome was used for the social-links in the footer witch should be familiar 
 
 # Credits 
 
-### Alot of my images and all of the content in the articles are taken from [Liverpools Official site](https://www.liverpoolfc.com/)
-### To add shadowboxing to the home page i used [getcssscan](https://getcssscan.com/css-box-shadow-examples)
+1. Alot of my images and all of the content in the articles are taken from [Liverpools Official site](https://www.liverpoolfc.com/)
+2. To add shadowboxing to the home page i used [getcssscan](https://getcssscan.com/css-box-shadow-examples)
+3. To add the icons for the social links in the footer i used [Font Awsome](https://fontawesome.com/)
