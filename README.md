@@ -1,11 +1,25 @@
 # Liverpool Fan Page
-
-### This page is designed to make Liverpool fans lifes easier, the page is filled with the most recent news and the first teams premier league schedule. We also offer our users to sign up to our newsletter to never miss out on any news.
+ This page is designed to make Liverpool fans lifes easier, the page is filled with the most recent news and the first teams premier league schedule. We also offer our users to sign up to our newsletter to never miss out on any news.
 #
-
 ![Website on diffrent viewports](assets/images/team-logos/readme-images/responsive_liverpool.png)
+#### [Link to Website](https://filipwirsen.github.io/Liverpool_fanpage/index.html)
+## User Stories
+ Alot of fotboll fans that i know have to visit diffrent sites to view their favorite teams fixtures and news. With this page you get all the information you need about Liverpool. When your visiting the site for the first time you will be greeted by familiar colors and instantly see the latest news and have to option to see the fixtures. There is no longer a need to visit diffrent pages to get all of the relevant information and that is why the users will be comming back to the site.
+ #
 
-### [Link to Website](https://filipwirsen.github.io/Liverpool_fanpage/index.html)
+## Client Goals
+* To be able to find all the relevant information on one site.
+* To be able to view the site on any device without it being a different UX
+* To allow people to sign up to a newsletter to get notified about recent news
+
+
+## First Time Visitor Goals
+* Find interesting and new articles regarding Liverpool
+* Find the teams fixtures
+
+## Returning visitor Goals
+* Make users sign up to the newsletter so they get a notification about new articles on the site
+* Make it a standard for them to visit the site whenever they want to know anything about the team news or their fixtures  
 
 
 # UX
@@ -45,9 +59,12 @@ Fontawsome was used for the social-links in the footer witch should be familiar 
 
 
 ## Typography
-
-### I used the Oswald font for everything except for the paragraphs witch has the Roboto font. I think theese two fonts complement each other very well and makes the headers pop out while the paragraphs remains easy to read.
-
+I used the Oswald font for everything except for the paragraphs witch has the Roboto font. I think theese two fonts complement each other very well and makes the headers pop out while the paragraphs remains easy to read.
+#
+## Imagery
+All team logos are taken from the Premier leagues own website and the other images are taken from Liverpools site.
+* [Premier League](https://www.premierleague.com/)
+* [Liverpools official site](https://www.liverpoolfc.com/)  
 #
 ## Home Page
 ### For the home page i wanted it to be easy to see that you can click the boxes to read the full article so i used box-shadowing and a diffrent background color.
