@@ -101,6 +101,9 @@ For the newsletter page i wanted to have the form as the only content to make th
 ![Newsletter Page Ipad](assets/images/readme-img/newsletter-ipad.png)
 ![Newsletter Page Iphone](assets/images/readme-img/newsletter-iphone.png)
 
+# Features I Want To Add In The Future
+I would like to make the schedule page update without me having to add the data manually 
+
 
 # Error and Validation
 All pages were validated using [w3.org](https://jigsaw.w3.org/css-validator/validator) for CSS and [w3.org](https://validator.w3.org/nu/) for HTML
@@ -109,7 +112,15 @@ When validating the schedule page i got the following warning
 ![Error from validiating schedule page](assets/images/error-schema.png)
  I fixed this by adding the colspan attribute to the table header
 
+
+## Solved bugs
  When uploading the project to github the background picture on the newsletter page didnt load, I fixed this by changing the url path.
+
+ ### Trouble with nav bar
+ When working towards making the site responsive the nav link "News" jumped out of the header and down into the body section. I fixed this by removing the padding on the nav bar when the site gets loaded on a screen thats 650px or below.
+
+
+
 
 
 # Technologies Used
@@ -119,6 +130,7 @@ When validating the schedule page i got the following warning
 * [FontAwsome](https://fontawesome.com/) - To use familiar logos for social links.
 * [Google Fonts](https://fonts.google.com/) - To import fonts used on the website.
 * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) -  To  test features, solve issues with styling and responsiveness. 
+* [Box-shadow](https://getcssscan.com/css-box-shadow-examples) - To add shadow boxing to the articles on the home page.
 
 # Deployment
 
