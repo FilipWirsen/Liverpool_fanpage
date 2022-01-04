@@ -27,7 +27,7 @@ As a user i want to look at Liverpools fixtures and the most recent news. Since 
  * The strategy for the page is to show everything that is relevant for a Liverpool fan to get them to sign up to the newsletter and to keep them comming back after visiting a first time.
 
 ## Scope
-The website contains the following functions:
+* The website contains the following functions:
 
 1. Show recent news articles about the first team.
 2. Show the first teams premier league schedule. 
@@ -37,12 +37,13 @@ The website contains the following functions:
 * I wanted to have a very basic structure so that the user easily can   navigate between the diffrent pages witch is why i made the header sticky so the alternative to view diffrent pages always is there.
 
 ## Skeleton 
-When the user comes into the website they can easily see that you can either click on the articles to read the full article or use the navigation bar at the top to view the schedule or sign up to the newsletter.
+* When the user comes into the website they can easily see that you can either click on the articles to read the full article or use the navigation bar at the top to view the schedule or sign up to the newsletter.
 
 ## Surface 
-Fontawsome was used for the social-links in the footer witch should be familiar to the user witch makes it easier to understand what the link is for.
+* Fontawsome was used for the social-links in the footer witch should be familiar to the user witch makes it easier to understand what the link is for.
 
  
+
 
 # Design
 
@@ -50,15 +51,15 @@ Fontawsome was used for the social-links in the footer witch should be familiar 
 
 For the color scheme i wanted to go for Liverpools official colors so the colors that are used for this project are the following
 
- Header and navigation background: #C8102E 
- 
+ * Header and navigation background: #C8102E 
+
 ![red-color](assets/images/red-color.png)
  
- Body background #F0F0F0
+ * Body background #F0F0F0
 
 ![white-color](assets/images/white-color.png)
 
-Footer background is #3a3a3a
+* Footer background is #3a3a3a
 
 ![gray-color](assets/images/gray-color.png)
 
@@ -80,17 +81,23 @@ For the home page i wanted it to be easy to see that you can click the boxes to 
 #
 ## Full Article
 All of the content from the full article section are taken from [Liverpools official site](https://www.liverpoolfc.com/) and i´ve added a link to the bottom of each article witch takes the user to the real article. To make it easy and fast to navigate i made the header sticky so even if your at the bottom of the page you can still navigate through the site.
-![Article page](assets/images/article-page.png)
+![Article Page](assets/images/readme-img/article.png)
+![Article Page Ipad](assets/images/readme-img/article-ipad.png)
+![Article Page Iphone](assets/images/readme-img/article-iphone.png)
 #
 ## Schedule Page
 For the Schedule page i wanted to show when, where and who were playing so i used the table attribute to add all the data i wanted per row. I also wanted to seperate the rows so the user easily can see the content that corresponds to the game they are looking at so i used the :hover selector to change the color of the whole row to Liverpools green color (#00b2a9).
 
-![Schedule page](assets/images/schedule-page.png)
+![Schedule Page](assets/images/readme-img/schedule.png)
+![Schedule Page Ipad](assets/images/readme-img/schedule-ipad.png)
+![Schedule Page Iphone](assets/images/readme-img/schedule-iphone.png)
 #
 
 ## Newsletter Page
 For the newsletter page i wanted to have the form as the only content to make the users focus stay on signing up witch is why i used the min-width property to always make the newsletter page cover the whole screen.
-![Newsletter page](assets/images/newsletter-page.png)
+![Newsletter Page](assets/images/readme-img/newsletter.png)
+![Newsletter Page Ipad](assets/images/readme-img/newsletter-ipad.png)
+![Newsletter Page Iphone](assets/images/readme-img/newsletter-iphone.png)
 
 
 # Error and Validation
