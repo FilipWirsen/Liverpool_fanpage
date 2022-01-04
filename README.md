@@ -18,7 +18,7 @@ The website contains the following functions:
 
 1. Show recent news articles about the first team.
 2. Show the first teams premier league schedule. 
-3. A form so the user can sign up and get all of our updates directly to their email. 
+3. A form so the user can sign up and get notified via email when we release new updates. 
 
 ## Structure 
 I wanted to have a very basic structure so that the user easily can navigate between the diffrent pages witch is why i made the header sticky so the alternative to view diffrent pages always is there.
